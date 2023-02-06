@@ -18,6 +18,10 @@ body{
     margin-right: auto;
 }
 
+section{
+    margin-bottom: 5rem;
+}
+
 /*---NAVBAR---*/
 
 nav{
@@ -117,4 +121,69 @@ main .card .card-text p{
     color: #5c7082;
     font-weight: bold;
     line-height: 2rem;
+}
+
+/*-------------planning-------*/
+
+main .planning{
+    background-color: #9593e6;
+    padding: 5rem 0 4rem 0;
+}
+
+
+main .planning .box-plan .b-plan-img{
+    padding-bottom: 3rem;
+}
+
+main .planning .box-plan .b-plan-img img{
+    width: 100%;
+}
+
+main .planning .box-plan .b-plan-text h2{
+    color: white;
+    font-size: 2em;
+    padding: 3rem 0 3rem 0;
+}
+
+main .planning .box-plan .b-plan-text p{
+    color: white;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+main .planning .card-plan{
+    background-color: white;
+    border-radius: 40px;
+}
+
+main .planning .card-plan .c-plan-img{
+    padding: 2rem;
+
+}
+
+main .planning .card-plan .c-plan-img img{
+    width: 100%;
+}
+
+main .planning .card-plan .c-plan-text{
+    text-align: center;
+    padding: 0 2rem 2rem 2rem;
+}
+
+main .planning .card-plan .c-plan-text h2{
+    padding-bottom: 1.5rem;
+}
+
+main .planning .card-plan .c-plan-text p{
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+main .planning .card-plan .c-plan-text i{
+    font-size: 0.8em;
+    background-color: #9593e6;
+    padding: 1rem 1.1rem;
+    border-radius: 50%;
 }
