@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar  */
+
+nav{
+    background-color: #0084fd;
+    
+}
+
+nav .container.inner-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+nav .menu-extended{
+    display: none;
+}
+
+nav .menu-icon{
+    color: white;
+    font-size: 1.5rem;
+}
