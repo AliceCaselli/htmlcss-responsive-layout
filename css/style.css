@@ -13,9 +13,7 @@ body{
 /*---COMMON---*/
 
 .container{
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
+   padding: 0 2rem;
 }
 
 section{
@@ -62,7 +60,8 @@ main .card-special .card-text{
     padding: 2.2rem;
 }
 
-main .card-special .card-text h2{
+main .card-special .card-text h3{
+    font-size: 1.3rem;
     color: #0083fc;
     margin-bottom: 2rem;
 }
@@ -79,7 +78,7 @@ main .card-special .card-text .btn-apple{
     background-color: #0084fd;
     border-color: transparent;
     border-radius: 30px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     padding: 0.6rem 4rem 0.6rem 4rem;
 }
@@ -112,7 +111,7 @@ main .card .card-text i{
     margin-bottom: 2rem;
 }
 
-main .card .card-text h2{
+main .card .card-text h3{
     color: #0083fc;
     margin-bottom: 2rem;
 }
@@ -170,7 +169,7 @@ main .planning .card-plan .c-plan-text{
     padding: 0 2rem 2rem 2rem;
 }
 
-main .planning .card-plan .c-plan-text h2{
+main .planning .card-plan .c-plan-text h3{
     padding-bottom: 1.5rem;
 }
 
