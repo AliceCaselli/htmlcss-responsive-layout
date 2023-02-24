@@ -186,3 +186,61 @@ main .planning .card-plan .c-plan-text i{
     padding: 1rem 1.1rem;
     border-radius: 50%;
 }
+
+/*-----testimonials----*/
+
+main .testimonials .container .text-intro-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+main .testimonials .container .text-intro-section h3{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+main .testimonials .container .text-intro-section h2{
+    font-size: 2em;
+    color: #9792e4;
+}
+
+main .testimonials .container .text-intro-section p{
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+main .testimonials .container .card-testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 50px;
+
+    margin-top: 40px;
+    padding: 40px 10px;
+}
+
+main .testimonials .container .card-testimonials .card-test-img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    background-image: url(/img/testimonial1.jpg);
+    background-size: 151%;
+    background-position: center;
+}
+
+main .testimonials .container .card-testimonials .card-test-text p{
+    line-height: 1.8em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main .testimonials .container .card-testimonials strong{
+    padding-top: 1.2em;
+
+}
